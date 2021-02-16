@@ -22,45 +22,6 @@ function Api2() {
         }, []
     )
 
-    // console.log(confirmed);
-
-    // do this in return with flex or much-lower part with material-ui grid
-// <div className='main'>
-        //     <div className='div1'>
-        //         <MediaCard title='Confirmed Cases' value={confirmed}  bgColor='#3498DB'/>
-        //         <MediaCard title='Deaths' value={deaths} color='wheat' bgColor='#E74C3C'/>
-        //         <MediaCard title='Recovered' value={recovered} bgColor='#16A085 ' color='whitesmoke'/>
-        //         </div>
-        //     <div  className='div2'>
-        //         {/* <MediaCard title='Confirmed Cases' value={confirmed}  bgColor='#3498DB'/> */}
-        //         <Bar data={{
-        //             labels: ['Confirmed', 'Deaths', 'Recovered'],
-        //             datasets : [{
-        //                 backgroundColor: ['#3498DB', '#E74C3C', '#16A085'],
-        //                 hoverBackgroundColor: ['#2874A8', '#9F2F23', '#0A735E' ],
-        //                 data: [confirmed, deaths, recovered]
-        //                 }]
-        //         }} options={{
-        //             legend: {
-        //                 display: false
-        //               }
-        //         }}/>
-        //         <Doughnut data={{
-        //             labels: ['Confirmed', 'Deaths', 'Recovered'],
-        //             datasets : [{
-        //                     backgroundColor: ['#3498DB', '#E74C3C', '#16A085'],
-        //                     hoverBackgroundColor: ['#2874A8', '#9F2F23', '#0A735E' ],
-        //                     data: [confirmed, deaths, recovered]
-        //                 }]
-        //         }} options={{
-        //             legend: {
-        //                 display: true,
-        //                 position: "top"
-        //               }
-        //         }}/>
-        //     </div>
-
-        // </div>
 
     return (
         <>

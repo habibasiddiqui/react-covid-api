@@ -4,10 +4,10 @@ import CardContent from '@material-ui/core/CardContent';
 // import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CountUp from 'react-countup';
-// import '../index.css';
+import { Divider } from '@material-ui/core';
 
 
-export default function MediaCard({title, value, color, bgColor, hoverColor}) {
+export default function MediaCard({title, value, color, bgColor, hoverColor, lastUpdate}) {
   const [hover, setHover] = useState(false);
   let temp_hover = hover ? hoverColor : bgColor ;
 
@@ -20,12 +20,19 @@ export default function MediaCard({title, value, color, bgColor, hoverColor}) {
           {title}
         </Typography>
        
-        <Typography variant="body1" component="p" style={{color: color}}>
+        <Typography variant="body1" component="p" style={{marginBottom: '10px',color: color}}>
           <CountUp start={1000000} end={value} duration={0.5}></CountUp>
+        </Typography>
+
+        <Divider />
+
+        <Typography variant="body2" component="p" style={{marginTop: '10px', color: color}}>
+          Dated: {new Date(lastUpdate).toDateString()}
         </Typography>
 
       </CardContent>
     </Card>
   );
 }
+
 

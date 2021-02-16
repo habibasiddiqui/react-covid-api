@@ -25,19 +25,23 @@ code {
   box-shadow: 0 0 6px 2px grey;
 }
 
-.grid-div{
-  /* border: 1px solid black; */
-  /* padding: 0%; */
+.formControl {
+  /* width: 30%; */
+  margin-left: 50px !important;
+  /* margin-bottom: 30px !important; */
+  /* margin: 30px auto !important; */
+
 }
 
-/* .main {
+.container {
   display: flex;
+  justify-content: center;
+  margin: auto;
+  /* width: 90%; */
 }
 
-.main .div1 {
-  flex: 1
-}
-
-.main .div2 {
-  flex: 2
+/* @media only screen and (max-width: 770px) {
+  .container {
+    width: 100%;
+  }
 } */
