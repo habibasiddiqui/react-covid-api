@@ -36,9 +36,10 @@ class Home extends React.Component {
       <div className="">
         <Grid container spacing={2} justify='center' alignItems='center' alignContent='center' >
 
-          <Grid item sm={12} style={{border: '1px solid black'}}>
+          <Grid  container spacing={2} justify='center' alignContent='center' alignItems='center' >
+          <Grid item sm={6} md={4} lg={3} >
           <Countries handleCountryChange={this.handleCountryChange} />
-
+          </Grid>
           </Grid>
 
           <Grid item sm={12} md={5} style={{marginBottom: '30px'}} >
